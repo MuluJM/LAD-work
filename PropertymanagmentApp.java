@@ -12,6 +12,7 @@ class User {
     public User(String username, String password) {
         this.username = username;
         this.password = password;
+        //This line of code initializes a new ArrayList called "properties" as an instance variable for the User class. It will be used to store instances of the Property class associated with the user.
         this.properties = new ArrayList<>();
     }
 
